@@ -19,10 +19,17 @@ Before looking at how this anatomy works lets first look at count and commands.
 Here are some useful commands of nvim:- 
 
   - dd - delete a line
-  - p - paste 
+  - p - paste after cursor 
+  - P - paste before cursor 
   - yy - copy a line 
   - u - undo
   - ctrl+r - redo
+  - `$` - go to end of text on current line
+  - `0` - go to beginning of the current line 
+  - `^` - go to the beginning of the text on current line 
+  - e - go to the end of the word
+  - u - undo last change
+  - U - undo changes of entire line
 
 How to use anatomy:- 
 You can always add numbers in front of your motion or after your command to make it execute that many time. For example i want to move 6 lines below my current line. pressing 6 than j can help me do that easily. Now i want to delete next 6 lines, pressing dd than 6 can help me with that. Now i want to delete the 6 lines which are above my current line. Pressing dd, 6 and k will help me do that. You can use this anatomy to do much more creative stuff.
