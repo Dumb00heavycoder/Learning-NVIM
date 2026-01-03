@@ -18,9 +18,9 @@ Before looking at how this anatomy works lets first look at count and commands.
 
 Here are some useful commands of nvim:- 
 
-  - dd - delete a life
+  - dd - delete a line
   - p - paste 
-  - yy - copy a life 
+  - yy - copy a line 
   - u - undo
   - ctrl+r - redo
 
