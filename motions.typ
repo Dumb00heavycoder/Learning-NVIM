@@ -30,7 +30,7 @@ Here are some useful commands of nvim:-
   - e - go to the end of the word
   - u - undo last change
   - U - undo changes of entire line
-
+  - D or d`$` - delete to the end of life
 How to use anatomy:- 
 You can always add numbers in front of your motion or after your command to make it execute that many time. For example i want to move 6 lines below my current line. pressing 6 than j can help me do that easily. Now i want to delete next 6 lines, pressing dd than 6 can help me with that. Now i want to delete the 6 lines which are above my current line. Pressing dd, 6 and k will help me do that. You can use this anatomy to do much more creative stuff.
 Visual mode:-
