@@ -21,6 +21,9 @@ Here are some useful commands of nvim:-
   - dd - delete a line
   - p - paste after cursor 
   - P - paste before cursor 
+  - r - replace the character under the cursor 
+  - cw - change the word 
+  - C or c`$` - change to the end of line 
   - yy - copy a line 
   - u - undo
   - ctrl+r - redo
